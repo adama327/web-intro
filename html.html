@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@1,100&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/af56251286.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li ><a href="#" class="titr"><img src="cash.png" alt="" srcset="" id="fmimg" width="50px"> <h4 id="fm">Finance Morning</h4></a></li>
+              </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="mySidenav" class="sidenav">
+            <a href="#" id="about"><i class="fa fa-whatsapp"></i> <h4>09 07 08 87 65</h4></a>
+            <a href="#" id="blog"><i class="fa fa-envelope"></i> <h6>finance669@gmail.com</h6></a>
+            <a href="#" id="projects"><i class="fa fa-facebook-f"></i><h5>Finance Morning</h5></a>
+            <a href="#" id="contact"><i class="fa fa-twitter"></i><h5>Finance.Morning669</h5></a>
+          </div>
+     <section>
+        <div id="descintro">
+            <p>Finance morning un oeil sur les marchés financiers !!!!</p>
+            <p>Informez-vous quotidiennement sur le taux des devises et les cryptomonnaies  </p>
+        </div>
+     </section>
+     <section>
+        <div>
+            <div class="market">
+                <h2>Classement des cryptomonnaies</h2>
+            </div>
+            <p id="exp">suivez le Classement des cryptomonnaies par rapport à l'USD</p>
+              <div>
+                <table class="tab">
+                    <thead>
+                        <th>N°</th>
+                        <th>Cryptomonnaies</th>
+                        <th>Symbole</th>
+                        <th>Capitalisation Boursières</th>
+                        <th class="creat">Créateurs</th>
+                        <th>prix en temps réel <span id="pup">↑</span> <span id="pdw">↓</span> </th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td><img src="https://icons.iconarchive.com/icons/cjdowner/cryptocurrency-flat/1024/Bitcoin-Cash-BCH-icon.png" alt="" srcset="" height="20px"><h3>Bitcoin</h3></td>
+                            <td><h3>BTC</h3></td>
+                            <td>376,51B $</td>
+                            <td>Satoshi Nakamoto</td>
+                            <td id="prix-btc"></td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td><img src="https://icons.iconarchive.com/icons/cjdowner/cryptocurrency-flat/1024/Ethereum-ETH-icon.png" alt="" srcset="" height="20px"><h3>Ethereum</h3></td>
+                            <td><h3>ETH</h3></td>
+                            <td>175,43B $</td>
+                            <td>Vitalik Buterin</td>
+                            <td id="prix-eth"></td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td><img src="https://icons.iconarchive.com/icons/cjdowner/cryptocurrency-flat/1024/Dollar-USD-icon.png" alt="" srcset="" height="20px"><h3>USD Coin</h3></td>
+                            <td><h3>USDC</h3></td>
+                            <td>6,67B $	</td>
+                            <td>Centre Consortium</td>
+                            <td id="prix-usdc"></td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td><img src="https://icons.iconarchive.com/icons/cjdowner/cryptocurrency-flat/1024/Binance-Coin-BNB-icon.png" alt="" srcset="" height="20px"><h3>Binance Coin</h3></td>
+                            <td><h3>USDC</h3></td>
+                            <td>44,79B $</td>
+                            <td>Changpeng Zhao</td>
+                            <td id="prix-bnb"></td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td><img src="https://icons.iconarchive.com/icons/cjdowner/cryptocurrency-flat/1024/Ripple-XRP-icon.png" alt="" srcset="" height="20px"><h3>Ripple XRP</h3></td>
+                            <td><h3>XRP</h3></td>
+                            <td>16,01B $</td>
+                            <td>Arthur Britto, David Schwartz, Ryan Fugger</td>
+                            <td id="prix-xrp"></td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td><img src="https://icons.iconarchive.com/icons/cjdowner/cryptocurrency-flat/1024/Cardano-ADA-icon.png" alt="" srcset="" height="20px"><h3>Cardano</h3></td>
+                            <td><h3>ADA</h3></td>
+                            <td>14,65B $</td>
+                            <td>Charles Hoskinson</td>
+                            <td id="prix-ada"></td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td><img src="https://cdn-icons-png.flaticon.com/512/7016/7016539.png" alt="" srcset="" height="20px"><h3>Solana</h3></td>
+                            <td><h3>SOL</h3></td>
+                            <td>10,58B $</td>
+                            <td>Anatoly Yakovenko</td>
+                            <td id="prix-sol"></td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td><img src="https://cdn-icons-png.flaticon.com/512/6001/6001518.png" alt="" srcset="" height="20px"><h3>Dogecoin</h3></td>
+                            <td><h3>DOGE</h3></td>
+                            <td>8,18B $	</td>
+                            <td>Billy Markus</td>
+                            <td id="prix-doge"></td>
+                        </tr>
+                           <tr>
+                            <td>9</td>
+                            <td><img src="https://cdn-icons-png.flaticon.com/512/6001/6001518.png" alt="" srcset="" height="20px"><h3>Shib Inu</h3></td>
+                            <td><h3>SHIB</h3></td>
+                            <td>6,50B $</td>
+                            <td>Ryoshi</td>
+                            <td id="prix-shib"></td>
+                        </tr>
+                        <tr>
+                            <td>10</td>
+                            <td><img src="https://icons.iconarchive.com/icons/blackvariant/button-ui-requests-6/1024/LiteCoin-icon.png" alt="" srcset="" height="20px"><h3>Lite Coin</h3></td>
+                            <td><h3>LTC</h3></td>
+                            <td>3,80B $</td>
+                            <td>Charlie Lee</td>
+                            <td id="prix-lc"></td>
+                        </tr>
+                    </tbody>  
+                </table>
+              </div>
+             <div class="buy"><a id="voirplus" href="https://coinmarketcap.com/fr/">Le Classement complet</a> <a href="https://crypto.com" id="achatcry"> Acheter des crytomonnaies</a> </div>  
+        </div>
+     </section>
+
+     <div class="space"></div>
+     <section>
+        <div class="bloc">
+            <div>
+                <img src="https://www.archimag.com/sites/archimag.com/files/styles/article/public/web_articles/image/blockchain_SI.jpg?itok=Q0mJD_Z7 " alt="" width="380px" id="imgbloc">
+            </div>
+            <div id="expbloc">
+                <p>La blockchain : c’est quoi ?
+                    Développée à partir de 2008, la blockchain est, en premier lieu, une technologie de stockage et de transmission d’informations. Cette technologie offre de hauts standards de transparence et de sécurité car elle fonctionne sans organe central de contrôle.
+                    
+                    Plus concrètement, la blockchain permet à ses utilisateurs - connectés en réseau - de partager des données sans intermédiaire.</p>
+            </div>
+        </div>
+        <div class="space"></div>
+        <div>
+            <img src="https://www.lafinancepourtous.com/wp-content/thumbnails/uploads/2021/09/cryptoactifs_indices_800-tt-width-812-height-515-fill-0-crop-0-bgcolor-eeeeee.png" alt="" srcset="" id="payscry">
+        </div>
+        <div class="space"></div>
+     </section>
+
+     <section>
+        <div class="market">
+            <div class="marketname">
+                <h2>Marche de change</h2>
+            </div>
+        </div>
+        <p id="exp" >Comparez votre devises à l'USD</p>    
+        <div class="bor">
+            <div class="market-op">
+
+                <div class="usdconv">
+                    <table class="usds usdh">
+                        <tr>
+                            <th>Devise</th>
+                            <th>Montant </th>
+                        </tr>
+                        <tr>
+                            <td>USD</td>
+                            <td><span id="conversion"></span></td>
+                        </tr>
+                    </table>
+                    </div>
+
+                        <div class="inp">
+                           <div><label for="">Devise</label> </div> 
+                       <div>
+                        <input type="number" placeholder="Montant....." id="devise"> 
+                        <select name="" id="selec">
+                            <option value="EUR">EUR - Euro</option>
+                            <option value="MAD">MAD - Dirham Marocain</option>
+                            <option value="MRU">MRU - Ouguiya</option>
+                            <option value="DZD">DZD - Dinar Algérien</option>
+                            <option value="SAR">SAR - Riyal Saoudiens</option>
+                            <option value="AUD">AUD - Australian Dollar</option>
+                            <option value="XOF">XOF - CFA Franc</option>
+                            <option value="BRL">BRL - Real Brésilien</option>
+                            <option value="CAD">CAD - Dollar Canadien</option>
+                            <option value="KPW">KPW - Won Nord-coréen</option>
+                            <option value="ILS">ILS - Nouveau Sheqel Israélien</option>
+                            <option value="EGP">EGP - Pound Égyptien</option>
+                            <option value="GBP">GBP - Livre Sterlling</option>
+                            <option value="GNF">GNF - Franc Guinéen</option>
+                            <option value="INR">INR - Rupee Indienne</option>
+                            <option value="JPY">JPY - Yen</option>
+                            <option value="MXN">MXN - Peso Mexicain</option>
+                            <option value="QAR">QAR - Rial Qatari</option>
+                            <option value="CHF">CHF - Franc Suisse</option>
+                            <option value="TND">TND - Dinars Tunisiens</option>
+                            <option value="TRY">TRY - Livre Turque</option>
+                            <option value="YER">YER - Rial du Yemenl</option>
+                            <option value="VEF">VEF - Bolivar</option>
+                            <option value="LKR">LKR - Rupee Sri Lankais</option>
+                            <option value="PEN">PEN - Nouveau Sol</option>
+                            <option value="NGN">NGN - Naira</option>
+                            <option value="KWD">KWD - Dinar Kowaitien</option>
+                        </select>  
+                       </div>  
+                        </div>        
+                    </div>
+               
+               <div id="convertir">
+                <button type="button" class="btndev">Convertir</button>
+                <p class="avert avertok">Veuillez vérifier le montant ou la devise selectionnée</p>
+               </div>     
+        </div>
+          
+     </section>
+     <div class="space"></div>
+     <section>
+        <div class="exped">
+            <h1>Pourquoi l’euro baisse-t-il par rapport au dollar ?</h1>
+            <div class="space"></div>
+            <h3>Le mardi 12 juillet 2022, l’euro a atteint la parité avec le dollar. Pour la première fois depuis 20 ans : 1 € était égal à 1 $. Cette perte d’environ 12 % de sa valeur face au dollar depuis le début de l’année 2022 reflète, d’une part, les incertitudes économiques planant autour de la zone euro et, d’autre part, des différences de politique monétaire.</h3>
+            <div class="space"></div>
+            <h5>Un cap symbolique de la parité euro-dollar a été franchi le 12 juillet 2022, une situation très inhabituelle puisqu’elle ne s’était pas produite depuis 20 ans. Un an auparavant, le 12 juillet 2021, 1 € valait encore 1,19 $. Une tendance baissière de l’euro face au dollar s’était alors amorcée. Elle a été accentuée par l’invasion de l’Ukraine par la Russie en février dernier.</h5>
+            <div class="space"></div>
+            <img src="https://www.lafinancepourtous.com/wp-content/thumbnails/uploads/2022/07/taux-change-euro-dollar-4-tt-width-812-height-652-fill-0-crop-0-bgcolor-eeeeee.png" alt="" srcset="">
+        </div>
+        <div class="space"></div>
+        <a href="https://www.forex.com/en/markets/shares/" style="color:yellowgreen"> En savoir sur les marchés financiers</a>
+     </section>
+    </main>
+
+<script src="javascript.js"></script>   
+
+<footer>
+    <div class="footer">
+        <div class="forn">
+            <p id="conn">Contactez-nous</p>
+            <div class="spaceform"></div>
+            <div class="spaceform"></div>
+            <div class="spaceform"></div>
+            <form action="" class="formm"> 
+                <div class="form">
+                    <label for="name">Nom et Prenom: </label> <input type="text" placeholder="Votre nom complet..." id="in1">
+                </div>
+                <div class="spaceform"></div>
+              <div class="form">
+                <label for="email">E-mail:</label> <input type="email" placeholder="exemple@gmail.com" id="in2">
+              </div>
+              <div class="spaceform"></div>
+              <div class="form">
+                <label for="Telephone">Telephone:</label> <input type="tel" id="in3">
+              </div>
+              <div class="spaceform"></div>
+              <div class="form">
+                <label for="">Votre message:</label> <textarea name="" id="in4" cols="35" rows="10"></textarea>
+              </div>
+            </form>
+            <div class="spaceform"></div>
+            <button type="submit" style="float: right;" id="subm">Envoyer</button>
+        </div>
+        <div>
+          <img src="blockchain.png" alt="" id="fin" >
+        </div>
+    </div>
+    <div class="spaceform"></div>
+    <div class="spaceform"></div>
+    <div class="spaceform"></div>
+    <div class="spaceform"></div>
+    <div class="spaceform"></div>
+    <div class="spaceform"></div>
+    <div>
+        <p style="text-align: center; color: chocolate; text-decoration: underline;">Copyright © 2022. All right reserved</p>
+    </div>
+   
+    <a href="#" class="btn btn-default up">⇧</a> 
+
+</footer>
+</body>
+
+</html>
